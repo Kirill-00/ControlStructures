@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 //#define TASK1
 //#define TASK2
@@ -11,24 +11,24 @@ void main()
 		cout << " Hello ";
 	}
 	int n;
-	cout << "Ââåäèòå êîëëè÷åñòâî èòåðàöèé: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð¸Ñ‚ÐµÑ€Ð°Ñ†Ð¸Ð¹: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		cout << i << "\t"; 
 	}*/
 #ifdef TASK1
 	int a, b = 1;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> a;
 	for (int i = 1; i <= a; i++)
 	{
 		b *= i;
 	}
-	cout << "Ôàêòîðèàë " << a <<" = " << b << endl;
+	cout << "Ð¤Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð» " << a <<" = " << b << endl;
 #endif TASK1
 #ifdef TASK2
 	int s,h,f=1;
-	cout << "Îñíîâàíèå ÷èñëà: "; cin >> h;
-	cout << "Ñòåïåíü: "; cin >> s;
+	cout << "ÐžÑÐ½Ð¾Ð²Ð°Ð½Ð¸Ðµ Ñ‡Ð¸ÑÐ»Ð°: "; cin >> h;
+	cout << "Ð¡Ñ‚ÐµÐ¿ÐµÐ½ÑŒ: "; cin >> s;
 	for (int i = 1; i <= s; i++)
 	{
 		f *= h;
