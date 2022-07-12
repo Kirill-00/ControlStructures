@@ -11,7 +11,4 @@ void main()
 	cout << 17 % 3 << endl;
 	cout << 3 % 17 << endl;
 #endif ARITHMETICAL_OPERATORS
-
-
-
 }

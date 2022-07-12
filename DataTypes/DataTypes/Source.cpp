@@ -1,4 +1,3 @@
-//DataTypes
 #include<iostream>
 using namespace std;
 
@@ -10,7 +9,6 @@ void main()
 	//cout << true << endl;
 	//cout << false << endl;
 
-	
 #ifdef INTEGRAL_TYPES
 	cout << sizeof(int) << endl;
 
@@ -30,7 +28,4 @@ void main()
 	b = c;
 	cout << a << "\t" << b << endl;
 #endif pomen_mest
-
-
-
 }
